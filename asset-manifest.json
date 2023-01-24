@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/video-games-tree-diagram/static/css/main.073c9b0a.css",
-    "main.js": "/video-games-tree-diagram/static/js/main.223b4c44.js",
+    "main.css": "/video-games-tree-diagram/static/css/main.25628000.css",
+    "main.js": "/video-games-tree-diagram/static/js/main.51fd86e2.js",
     "static/js/787.be40e627.chunk.js": "/video-games-tree-diagram/static/js/787.be40e627.chunk.js",
-    "static/media/logo.svg": "/video-games-tree-diagram/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/video-games-tree-diagram/index.html",
-    "main.073c9b0a.css.map": "/video-games-tree-diagram/static/css/main.073c9b0a.css.map",
-    "main.223b4c44.js.map": "/video-games-tree-diagram/static/js/main.223b4c44.js.map",
+    "main.25628000.css.map": "/video-games-tree-diagram/static/css/main.25628000.css.map",
+    "main.51fd86e2.js.map": "/video-games-tree-diagram/static/js/main.51fd86e2.js.map",
     "787.be40e627.chunk.js.map": "/video-games-tree-diagram/static/js/787.be40e627.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.223b4c44.js"
+    "static/css/main.25628000.css",
+    "static/js/main.51fd86e2.js"
   ]
 }
