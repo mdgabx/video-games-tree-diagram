@@ -26,15 +26,19 @@ body {
     color: #fff;
     font-family: "Questrial", sans-serif;
     text-align: center;
+    font-size: 12px;
+    margin: auto;
+    text-align: center;
 
     .chart-con {
       background-color: #fff;
       border-radius: 12px;
       color: #111;
       box-shadow: 4px -4px 21px -4px rgba(0,0,0,0.75);
-      padding: 1rem;
+      padding: 2rem;
       margin-top: 1.2rem;
-      
+      display: flex;
+      flex-direction: column;
     }
   }
 }
