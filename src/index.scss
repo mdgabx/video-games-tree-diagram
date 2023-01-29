@@ -29,6 +29,15 @@ body {
     font-size: 12px;
     margin: auto;
     text-align: center;
+    position: relative;
+
+    #tooltip {
+        visibility: hidden;
+        position: absolute;
+        padding: 1.1rem;
+        color: #fff;
+        background: rgba(0,0,0, 0.3);
+    }
 
     .chart-con {
       background-color: #fff;
@@ -39,6 +48,10 @@ body {
       margin-top: 1.2rem;
       display: flex;
       flex-direction: column;
+
+      
+ 
     }
   }
+
 }

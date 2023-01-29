@@ -7,6 +7,7 @@ const Tree = ({data}) => {
 
     if(data !== "" && data !== undefined && data !== null) {
                     
+        let tooltip = d3.select("#tooltip")
         let canvas = d3.select("#canvas")
                         .attr("width", width)
                         .attr("height", height)
@@ -98,6 +99,17 @@ const Tree = ({data}) => {
             .attr("height", (game) => {
                 return game["y1"] - game["y0"];
             })
+            .on("mouseover", (event, game) => {
+                tooltip.transition().style('visibility', 'visible')
+                                    .style('top', (event.offsetY + 50) + 'px')
+                                    .style('left', (event.offsetX) + 'px')
+                                    .text(`${game["data"]["name"]} - ${game["data"]["value"]}`)
+                                    .attr('data-value', game["data"]["value"])
+
+            })
+            .on('mouseout', (game) => {
+                tooltip.transition().style('visibility', 'hidden')
+            })
 
             block.append("text")
                 .text((game) => game["data"]["name"])
@@ -113,6 +125,9 @@ const Tree = ({data}) => {
         <div className="container">
             <h1 id="title">{data.name}</h1>
             <p id="description">Top 100 Most Sold Video Games Grouped by Platform</p>
+            <div id="tooltip">
+                
+            </div>
             <div className="chart-con">
                 <svg id="canvas">
 
