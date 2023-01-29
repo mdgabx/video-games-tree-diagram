@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/video-games-tree-diagram/static/css/main.f45dd0db.css",
-    "main.js": "/video-games-tree-diagram/static/js/main.1463302b.js",
+    "main.css": "/video-games-tree-diagram/static/css/main.b074a4bf.css",
+    "main.js": "/video-games-tree-diagram/static/js/main.81bd4781.js",
     "static/js/787.be40e627.chunk.js": "/video-games-tree-diagram/static/js/787.be40e627.chunk.js",
     "index.html": "/video-games-tree-diagram/index.html",
-    "main.f45dd0db.css.map": "/video-games-tree-diagram/static/css/main.f45dd0db.css.map",
-    "main.1463302b.js.map": "/video-games-tree-diagram/static/js/main.1463302b.js.map",
+    "main.b074a4bf.css.map": "/video-games-tree-diagram/static/css/main.b074a4bf.css.map",
+    "main.81bd4781.js.map": "/video-games-tree-diagram/static/js/main.81bd4781.js.map",
     "787.be40e627.chunk.js.map": "/video-games-tree-diagram/static/js/787.be40e627.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f45dd0db.css",
-    "static/js/main.1463302b.js"
+    "static/css/main.b074a4bf.css",
+    "static/js/main.81bd4781.js"
   ]
 }
