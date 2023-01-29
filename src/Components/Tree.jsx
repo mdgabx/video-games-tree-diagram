@@ -6,17 +6,7 @@ const Tree = ({data}) => {
     const height = 1000;
 
     if(data !== "" && data !== undefined && data !== null) {
-                        
-
-        // svg.selectAll("rect")
-        //         .data(data.children)
-        //         .enter()
-        //         .append("rect")
-        //         .attr("class", "tile")
-        //         .attr("fill", (d) => {
-        //             console.log('data', d.name);
-        //         })
-
+                    
         let canvas = d3.select("#canvas")
                         .attr("width", width)
                         .attr("height", height)
@@ -161,44 +151,44 @@ const Tree = ({data}) => {
                         <text x="330" y="110">3DS</text>
                     </g>
                     <g>
-                        <rect className="legend-item" x="10" y="90" width={tileWidth} height={tileHeight} fill="orange"></rect>
-                        <text x="60" y="110">PS4</text>
+                        <rect className="legend-item" x="370" y="40" width={tileWidth} height={tileHeight} fill="violet"></rect>
+                        <text x="420" y="60">PS4</text>
                     </g>
                     <g>
-                        <rect className="legend-item" x="10" y="90" width={tileWidth} height={tileHeight} fill="orange"></rect>
-                        <text x="60" y="110">SNES</text>
+                        <rect className="legend-item" x="370" y="90" width={tileWidth} height={tileHeight} fill="indigo"></rect>
+                        <text x="420" y="110">SNES</text>
                     </g>
                     <g>
-                        <rect className="legend-item" x="10" y="90" width={tileWidth} height={tileHeight} fill="orange"></rect>
-                        <text x="60" y="110">PS</text>
+                        <rect className="legend-item" x="460" y="40" width={tileWidth} height={tileHeight} fill="magenta"></rect>
+                        <text x="510" y="60">PS</text>
                     </g>
                     <g>
-                        <rect className="legend-item" x="10" y="90" width={tileWidth} height={tileHeight} fill="orange"></rect>
-                        <text x="60" y="110">N64</text>
+                        <rect className="legend-item" x="460" y="90" width={tileWidth} height={tileHeight} fill="skyblue"></rect>
+                        <text x="510" y="110">N64</text>
                     </g>
                     <g>
-                        <rect className="legend-item" x="10" y="90" width={tileWidth} height={tileHeight} fill="orange"></rect>
-                        <text x="60" y="110">GBA</text>
+                        <rect className="legend-item" x="550" y="40" width={tileWidth} height={tileHeight} fill="cyan"></rect>
+                        <text x="600" y="60">GBA</text>
                     </g>
                     <g>
-                        <rect className="legend-item" x="10" y="90" width={tileWidth} height={tileHeight} fill="orange"></rect>
-                        <text x="60" y="110">XB</text>
+                        <rect className="legend-item" x="550" y="90" width={tileWidth} height={tileHeight} fill="gold"></rect>
+                        <text x="600" y="110">XB</text>
                     </g>
                     <g>
-                        <rect className="legend-item" x="10" y="90" width={tileWidth} height={tileHeight} fill="orange"></rect>
-                        <text x="60" y="110">PC</text>
+                        <rect className="legend-item" x="640" y="40" width={tileWidth} height={tileHeight} fill="tan"></rect>
+                        <text x="690" y="60">PC</text>
                     </g>
                     <g>
-                        <rect className="legend-item" x="10" y="90" width={tileWidth} height={tileHeight} fill="orange"></rect>
-                        <text x="60" y="110">2600</text>
+                        <rect className="legend-item" x="640" y="90" width={tileWidth} height={tileHeight} fill="brown"></rect>
+                        <text x="690" y="110">2600</text>
                     </g>
                     <g>
-                        <rect className="legend-item" x="10" y="90" width={tileWidth} height={tileHeight} fill="orange"></rect>
-                        <text x="60" y="110">PSP</text>
+                        <rect className="legend-item" x="730" y="40" width={tileWidth} height={tileHeight} fill="pink"></rect>
+                        <text x="780" y="60">PSP</text>
                     </g>
                     <g>
-                        <rect className="legend-item" x="10" y="90" width={tileWidth} height={tileHeight} fill="orange"></rect>
-                        <text x="60" y="110">XOne</text>
+                        <rect className="legend-item" x="730" y="90" width={tileWidth} height={tileHeight} fill="navy"></rect>
+                        <text x="780" y="110">XOne</text>
                     </g>
                 </svg>
             </div>
